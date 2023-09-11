@@ -10,7 +10,7 @@ Clone the repository from atltis-repo-git-repo-to-be-added.
 * name: <string>  (resource name)
 * endpoint_id: <string> (endpoint of resource for example nlb endpoint)
 * weight: <number> 
-* from_port: <number
+* from_port: <number>
 * protocol: <String>
 
 ### Deploying Atlantis Server
