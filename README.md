@@ -23,4 +23,3 @@ terraform plan -var-file=./config/dev.tfvars
 Check your plan and verify the changes and apply changes using 
 ```
 terraform apply -var-file=./config/dev.tfvars
-```
