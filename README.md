@@ -24,12 +24,3 @@ Check your plan and verify the changes and apply changes using
 ```
 terraform apply -var-file=./config/dev.tfvars
 ```
-
-### Adding WebHook To Github Repo.
-
-Onces the atlantis server is up. Now you have to add webhook to your github repo, Open your repo got to settings -> webhooks
-In payload URL: 'https://<atlantis-server-url>/events' e.g https://ltscaleatlantis.groveops.net/events
-Content type: 'application/json'
-Events to trigger this webhook: Select `Let me select individual events` add the following events (Pull request reviews,Pull requests, Pushes and Issue comments) and save your webhook changes.
-
-Check the status by entering atlantis url `https://ltScaleatlantis.groveops.net` in your browser.
