@@ -25,8 +25,6 @@ Check your plan and verify the changes and apply changes using
 terraform apply -var-file=./config/dev.tfvars
 ```
 ## Outputs
-Outputs
-global_accelerator_dns_name: The DNS name of the AWS Global Accelerator.
-
-nlb_dns_name: The DNS name of the Network Load Balancer.
-endpoint_group_id: the enpoint id 
+* global_accelerator_dns_name: The DNS name of the AWS Global Accelerator.
+* nlb_dns_name: The DNS name of the Network Load Balancer.
+* endpoint_group_id: the enpoint id 
