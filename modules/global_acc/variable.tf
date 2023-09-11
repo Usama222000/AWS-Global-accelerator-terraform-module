@@ -1,0 +1,1 @@
+variable "G_ACC" {}
